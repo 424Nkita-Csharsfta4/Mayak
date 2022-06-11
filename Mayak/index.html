@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маяк</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Scss/style.css">
+    <link rel="stylesheet" href="./Scss/reset.css">
+</head>
+<body>
+    <header class="header" style="background:url('bg.jpg'); background-size: cover;
+    background-position: center center;">
+        <div class="container">
+            <div class="logo">  
+                    <img src="logo.png" alt="" class="log">
+            </div>
+            <nav class="nav-link">
+                <ul class="ul-link-them">
+                    <li class="link__them">Отзывы</li>
+                    <li class="link__them">Контакты</li>
+                    <li class="link__them">Курсы</li>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1 class="title">
+                    Открой для <span>себя</span> новую Ирландию
+                </h1>
+                <p class="title-subject">
+                    Авторские туры по экзотическим уголкам от Ивана Андреева
+                </p>
+                <button class="btn" id="open">
+                    Оставить заявку
+                </button>
+                <div class="modal-container">
+                    <div class="modal">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZymuWF1U294?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     <button id="close">
+                         Закрыть
+                     </button>
+                    </div>
+                </div>
+                <button class="btn-clip">
+                    Наши туры за 2018
+                </button>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
